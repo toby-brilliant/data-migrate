@@ -13,6 +13,7 @@ require File.join(File.dirname(__FILE__), "data_migrate", "tasks/data_migrate_ta
 require File.join(File.dirname(__FILE__), "data_migrate", "config")
 require File.join(File.dirname(__FILE__), "data_migrate", "schema_migration")
 require File.join(File.dirname(__FILE__), "data_migrate", "database_configurations_wrapper")
+require File.join(File.dirname(__FILE__), "data_migrate", "active_record_database_tasks")
 
 module DataMigrate
   def self.root
